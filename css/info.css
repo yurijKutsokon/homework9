@@ -1,0 +1,82 @@
+.block-info {
+    min-height: 340px;
+    background-image: -moz-linear-gradient(bottom, #312539 0%, #745083 100%);
+    background-image: -o-linear-gradient(bottom, #312539 0%, #745083 100%);
+    background-image: -webkit-linear-gradient(bottom, #312539 0%, #745083 100%);
+    background-image: linear-gradient(bottom, #312539 0%, #745083 100%);
+    border-top: 1px solid #33253a;
+    border-bottom: 1px solid #0d151b;
+}
+
+.container-block-info {
+    max-width: 229px;
+    width: 100%;
+    margin: 73px auto 0;
+}
+
+.container-block-info h4,
+.container-block-info p,
+.container-block-info a {
+    color: #fff;
+    text-shadow: 0 1px 0 #0e1418;
+}
+
+.container-block-info p {
+    line-height: 24px;
+    letter-spacing: -0.1px;
+}
+
+.container-block-info a {
+    float: right;
+    font-size: 18px;
+}
+
+.container-block-info a:hover {
+    text-shadow: 0 0 8px rgba(255,255,255,.8);
+}
+
+.block-info-txt {
+    margin: 5px 0 18px;
+    max-height: 140px;
+    overflow: hidden;
+}
+
+.left, .center, .right {
+    position: relative;
+}
+
+.left h4:before {
+    content:"";
+    position: absolute;
+    display: block;
+    background: url("/images/spritesheet.png") no-repeat;
+    width: 31px;
+    height: 32px;
+    background-position: -10px -10px;
+    left: -48px;
+    top: 10px;
+}
+
+.center h4:before {
+    content:"";
+    position: absolute;
+    display: block;
+    background: url("/images/spritesheet.png") no-repeat;
+    width: 34px;
+    height: 30px;
+    background-position: -10px -62px;
+    left: -48px;
+    top: 10px;
+}
+
+.right h4:before {
+    content:"";
+    position: absolute;
+    display: block;
+    background: url("/images/spritesheet.png") no-repeat;
+    width: 30px;
+    height: 32px;
+    background-position: -10px -112px;
+    left: -48px;
+    top: 10px;
+}

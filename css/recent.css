@@ -1,0 +1,133 @@
+.most-recent {
+    background: #f9f9f9;
+    min-height: 607px;
+}
+
+.container-block-article {
+    margin: 100px 0 122px;
+}
+
+.article {
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.3);
+    box-shadow: 0 1px 2px rgba(0,0,0,.3);
+    max-width: 430px;
+    width: 100%;
+    margin-left: 25px;
+    position: relative;
+}
+
+.article:before {
+    content: "";
+    position: absolute;
+    display: block;
+    background: url("/images/man.png") no-repeat;
+    width: 50px;
+    height: 51px;
+    left: -25px;
+    top: 18px;
+}
+
+.title {
+    padding: 23px 40px 38px 32px;
+ }
+
+.title h4, .title p, .updates h4, .updates a {
+    color: #454545;
+    text-shadow: 0 1px 0 #fff;
+}
+.title h4, .updates h4 {
+    margin-bottom: 12px;
+}
+
+.title h4 span {
+    color: #edbfff;
+}
+
+.updates {
+    padding-top: 23px;
+    margin-left: 35px;
+}
+
+.container-updates {
+    padding-left: 65px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.container-updates:before {
+    content: "";
+    position: absolute;
+    display: block;
+    background: url("/images/man.png") no-repeat;
+    width: 50px;
+    height: 51px;
+    left: 0;
+    top: 0;
+}
+
+.container-updates .name {
+    font-family: "Open Sans Extrabold", sans-serif;
+}
+
+.updates a {
+    float: right;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.sponsors {
+    position: relative;
+    min-height: 118px;
+    clear: both;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #e6e6e6;
+    padding: 0 9999px;
+    margin: 0 -9999px;
+}
+
+.sponsor1, .sponsor2, .sponsor3,
+.sponsor4, .sponsor5, .sponsor6 {
+    background: url("/images/spritesheet.png") no-repeat;
+    margin: 25px auto 30px;
+}
+
+.sponsor1 {
+    width: 69px;
+    height: 64px;
+    background-position: -10px -164px;
+}
+
+.sponsor2 {
+    width: 72px;
+    height: 64px;
+    background-position: -10px -248px;
+}
+
+.sponsor3 {
+    width: 65px;
+    height: 65px;
+    background-position: -10px -332px;
+}
+
+.sponsor4 {
+    width: 50px;
+    height: 63px;
+    background-position: -10px -417px;
+}
+
+.sponsor5 {
+    width: 103px;
+    height: 60px;
+    background-position: -10px -500px;
+}
+
+.sponsor6 {
+    width: 78px;
+    height: 61px;
+    background-position: -10px -580px;
+}

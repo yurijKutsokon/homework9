@@ -1,0 +1,48 @@
+.news {
+    min-height: 396px;
+    background: #ececec;
+}
+
+.block-news {
+    margin: 100px 0;
+}
+
+.container-block-news {
+    max-width: 285px;
+    width: 100%;
+}
+
+.container-block-news.news-block-left {
+    float: left;
+}
+
+.container-block-news.news-block-middle {
+    margin: 0 auto;
+}
+
+.container-block-news.news-block-right {
+    float: right;
+}
+
+.container-block-news h2,
+.container-block-news h4 {
+    color: #454545;
+}
+
+.container-block-news h2 span {
+    color: #b8b8b8;
+}
+
+.container-block-news .copy p {
+    color: #c5c5c5;
+    font-family: "Georgia", sans-serif;
+    font-style: italic;
+    text-shadow: 0 1px 0 #fff;
+    margin-bottom: 3px;
+}
+
+.container-block-news p {
+    color: #787878;
+    text-shadow: 0 1px 0 #fff;
+}
+
